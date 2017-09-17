@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+
+    int max1;
+    if (a > b)
+    max1 = a;
+    else
+        max1 = b;
+
+
+    int max2;
+    if (max1 > c)
+        max2 = max1;
+    else
+        max2 = c;
+
+
+    int max3;
+    if (max2 > d)
+        max3 = max2;
+    else
+        max3 = d;
+
+
+    if (max3 > e)
+        printf("%d",max3);
+    else
+
+        printf("%d",e);
+
+    return 0;
+}
