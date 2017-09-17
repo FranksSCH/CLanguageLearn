@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+
+    int min1;
+    if (a < b)
+        min1 = a;
+    else
+        min1 = b;
+
+
+    int min2;
+    if (min1 < c)
+        min2 = min1;
+    else
+        min2 = c;
+
+
+    int min3;
+    if (min2 < d)
+            min3 = min2;
+    else
+    min3 = d;
+
+
+    if (min3 < e)
+        printf("%d",min3);
+    else
+
+        printf("%d",e);
+
+    return 0;
+}
