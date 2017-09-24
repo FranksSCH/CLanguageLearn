@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    float a,b,c;
+    a = 1;
+    b = 2;
+    c = a + b;
+    printf("%f",c);
+    system("pause");
+    return 0;
+}
