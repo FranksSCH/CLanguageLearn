@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("  * *     * *\n*      *      *\n*             *\n *     璇    *\n   *       *\n     *   *\n       *");
+
+
+    return 0;
+}
