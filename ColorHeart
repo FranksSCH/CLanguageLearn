@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    system("color b4");
+    printf("\n\n\n\n\n        * *     * *\n      *      *      *\n      *             *\n       *     璇    *\n         *       *\n           *   *\n             *\n\n\n\n\n");
+    system("pause");
+    return 0;
+}
