@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.H>
+int main() {
+    system("color b3");
+    float a,b,c;
+    a = 1.2;
+    b =3;
+    c = a + b;
+    printf("%f+%f=%f\n",a,b,c);
+    c = a - b;
+    printf("%f-%f=%f\n",a,b,c);
+    c = a * b;
+    printf("%f*%f=%f\n",a,b,c);
+    system("pause");
+    return 0;
+}
