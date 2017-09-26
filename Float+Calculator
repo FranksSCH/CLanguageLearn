@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    float a,b,c;
+    printf("This is a + calculator.Welcome to use it!\n");
+    printf("----------------------------------------------------\n");
+    printf("Please input the first number(Then push enter)\n");
+    scanf("%f",&a);
+    printf("Please input the second number(Then push enter)\n");
+    scanf("%f",&b);
+    c = a + b;
+    printf("%f+%f=%f\n",a,b,c);
+    system("pause");
+    return 0;
+}
