@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    char a;
+    scanf("%c",&a);
+    printf("What you inputted is %c",a);
+    system("pause");
+    return 0;
+}
