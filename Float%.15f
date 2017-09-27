@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    float a;
+    a =3.14159265358932;
+    printf("%.15f",a);
+    system("pause\n");
+    return 0;
+}
