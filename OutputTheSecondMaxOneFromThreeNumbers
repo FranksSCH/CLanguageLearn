@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    int N1,N2;
+    if(a > b)
+    {N1 = a;
+        N2 = b;}
+    else
+    {N1 = b;
+        N2 = a;}
+    int N3;
+    if (N1 > c)
+        N3 = c;
+    else
+        N3 = N1;
+    if (N2 > N3)
+        printf("%d",N2);
+    else
+        printf("%d",N3);
+    system("pause");
+    return 0;
+}
