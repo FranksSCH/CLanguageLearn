@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int count, a, i;
+    count = 0;
+    scanf("%d", &a);
+    for (i = 2; i <= a - 1; i++) {
+        if (a % i == 0) {
+            count++;
+            printf("%d", i);
+        }
+    }
+    if (count == 0)
+        printf("rime number\n");
+    else
+        printf("Composite number\n");
+    system("pause");
+    return 0;
+}
